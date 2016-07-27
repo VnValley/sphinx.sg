@@ -1,0 +1,106 @@
+.color-sphinx {
+    color: #00897B;
+}
+
+.pd-50 {
+    padding-top: 50px;
+}
+
+.navbar-sphinx {
+    background-color: #00796B;
+    margin: 0;
+    color: #E0F2F1;
+}
+
+.navbar-sphinx.slideInDown {
+    -webkit-animation:slideInDown 300ms;
+    -o-animation:slideInDown 300ms;
+    animation:slideInDown 300ms;
+}
+
+.navbar-sphinx .icon-bar{
+    background-color: #E0F2F1;
+}
+
+.navbar-sphinx .nav > li > a {
+    color: #E0F2F1;
+}
+
+.navbar-sphinx .nav > li:hover > a,
+.navbar-sphinx .nav > li.active > a,
+.navbar-sphinx .nav > li > a:focus{
+    background-color: #00897B;
+}
+
+.bg-light {
+    background-color: #E0F2F1;
+}
+
+.bg-dark {
+    background-color: #00897B;
+}
+
+.welcome {
+    padding: 40px 0;
+    min-height: 600px;
+}
+
+.welcome h1 {
+    font-family: 'Catamaran', sans-serif;
+}
+
+footer {
+    min-height: 600px;
+}
+
+#rocket {
+    width: 200px;
+    height: auto;
+    transform: rotate(45deg);
+}
+
+#about {
+    min-height: 600px;
+}
+
+
+#explore {
+    padding: 10px 30px;
+    background-color: #00796B;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 20px;
+    border: none;
+    border-bottom: 8px #005048 solid;
+    border-radius: 5px;
+    color: #fff;
+
+    -webkit-transition: background-color 300ms;
+    -moz-transition: background-color 300ms;
+    -ms-transition: background-color 300ms;
+    -o-transition: background-color 300ms;
+    transition: background-color 300ms;
+}
+
+#explore:hover {
+    background-color: #00897B;
+}
+
+#backToTopButton {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    -webkit-transition: opacity 300ms;
+    -moz-transition: opacity 300ms;
+    -ms-transition: opacity 300ms;
+    -o-transition: opacity 300ms;
+    transition: opacity 300ms;
+    opacity: 0;
+    cursor: default;
+    color: #00897B;
+}
+
+#backToTopButton.active {
+    opacity: 1;
+    display: block;
+    cursor: pointer;
+}

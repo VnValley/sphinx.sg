@@ -1,0 +1,24 @@
+{
+  "name": "sphinx.sg",
+  "authors": [
+    "Ngoc To <tongoc92@gmail.com>"
+  ],
+  "description": "Sphinx Official Website",
+  "main": "",
+  "license": "Sphinx",
+  "homepage": "sphinx.sg",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mojs": "^0.265.6",
+    "bootstrap": "^3.3.6",
+    "animate.css": "^3.5.2",
+    "font-awesome": "^4.6.3"
+  }
+}
